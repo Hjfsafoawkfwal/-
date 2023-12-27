@@ -27,16 +27,15 @@ namespace Мебельная_фабрика
                     found = true;
                     break;
                 }
-                if (found)
-                {
-                    MessageBox.Show("НАйдено");
-                }
-                else
-                {
-                    MessageBox.Show("Не найдено");
-                }
             }
-            
+            if (found)
+            {
+                MessageBox.Show("Найдено");
+            }
+            else
+            {
+                MessageBox.Show("Не найдено");
+            }
         }
     }
 }
